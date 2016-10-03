@@ -28,7 +28,7 @@
     var individualWords = paragraph.innerHTML.split(" ");
 
     // List of words to append "hypothetically" after instead of before
-    var after = ["is"];
+    var after = ["is", "was"];
 
     // Loop through the individual words checking lazily for verbs
     individualWords.forEach(function (word, index, words) {
